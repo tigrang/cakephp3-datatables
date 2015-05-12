@@ -1,0 +1,28 @@
+{
+    "name": "tigrang/cakephp3-datatables",
+    "description": "DataTables plugin for CakePHP",
+    "type": "cakephp-plugin",
+    "license": "MIT",
+    "homepage": "https://github.com/tigrang/cakephp3-datatables",
+    "require": {
+        "php": ">=5.4.16",
+        "cakephp/cakephp": "~3.0"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "*"
+    },
+    "autoload": {
+        "psr-4": {
+            "DataTables\\": "src"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "DataTables\\Test\\": "tests",
+            "Cake\\Test\\": "./vendor/cakephp/cakephp/tests"
+        }
+    },
+    "extra": {
+        "installer-name": "DataTables"
+    }
+}
