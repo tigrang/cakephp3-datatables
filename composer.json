@@ -9,7 +9,8 @@
         "cakephp/cakephp": "~3.0"
     },
     "require-dev": {
-        "phpunit/phpunit": "*"
+        "phpunit/phpunit": "*",
+        "cakephp/cakephp-codesniffer": "dev-master"
     },
     "autoload": {
         "psr-4": {
@@ -21,8 +22,5 @@
             "DataTables\\Test\\": "tests",
             "Cake\\Test\\": "./vendor/cakephp/cakephp/tests"
         }
-    },
-    "extra": {
-        "installer-name": "DataTables"
     }
 }
